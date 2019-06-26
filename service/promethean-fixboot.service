@@ -1,0 +1,18 @@
+[Unit]
+Description=Delete file /dev/shm/sem.promethean on boot
+After=activRelay.service
+Requires=activRelay.service
+#ConditionPathExists=/dev/shm/sem.promethean
+
+[Service]
+Type=simple
+ExecStart=/bin/rm /dev/shm/sem.promethean
+Restart=always
+RestartSec=2
+RestartPreventExitStatus=0
+StartLimitInterval=200
+StartLimitBurst=9
+
+[Install]
+WantedBy=multi-user.target
+Alias=promethean-fixboot.service
