@@ -1,3 +1,9 @@
+promethean-fixboot (0.2.1) focal; urgency=medium
+
+  * First boot release
+
+ -- Juanma1980 <juanma1980@gmail.com>  Fri, 12 Mar 2021 10:00:04 +0100
+
 promethean-fixboot (0.2) bionic; urgency=medium
 
   * Bionic release
