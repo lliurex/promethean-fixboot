@@ -8,5 +8,5 @@ Standards-Version: 3.9.5
 
 Package: promethean-fixboot
 Architecture: all
-Depends: ${misc:Depends}, activinspire
+Depends: ${misc:Depends}, activinspire, promethean-compat-libs
 Description: Delete /dev/shm/pem.promethean on boot
