@@ -1,3 +1,9 @@
+promethean-fixboot (0.2.3) UNRELEASED; urgency=medium
+
+  * Revert 0.2.2 
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 10 Jan 2024 11:38:22 +0100
+
 promethean-fixboot (0.2.2) focal; urgency=medium
 
   * Add dependency on promethean-compat-libs 
